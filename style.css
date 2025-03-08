@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: large;
+}
+
+h1 {
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+background-color: #444;
+
+
+}
+
+nav ul {
+    text-align: center;
+    padding: 15px;
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+color:  #fff;
+padding: 10px 20px;
+background-color: #666;
+}
+
+.recipe-details {
+
+background-color: #fff;
+}
+
+.recipe-details img {
+display: block;
+margin: 0 auto;
+padding: 10px;
+}
+
+.recipe-details p {
+
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.recipe-details h2 {
+
+    margin-bottom: 20px;
+    color: #555;
+}
+.recipe-details ul .recipe-details ol {
+    margin-bottom: 20px;
+}
+
+.ingredients {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.recipe-details a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 15px;
+}
